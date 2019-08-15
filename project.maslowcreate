@@ -46,8 +46,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 674,
-                    "y": 110,
+                    "x": 680,
+                    "y": 113,
                     "uniqueID": 940575,
                     "ioValues": [
                         {
@@ -109,6 +109,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 640,
+                    "y": 140,
+                    "uniqueID": 485898,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 364499",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 495946",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -116,7 +133,19 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 364499",
+                    "ap1ID": 343803,
+                    "ap2ID": 485898
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 485898
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
