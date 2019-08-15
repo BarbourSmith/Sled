@@ -2,6 +2,39 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Outline",
+            "x": 137,
+            "y": 66,
+            "uniqueID": 343803,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 114,
+                    "y": 69,
+                    "uniqueID": 731136,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Sled",
             "x": 0,
             "y": 0,
@@ -9,6 +42,14 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Outline",
+                    "x": 137,
+                    "y": 66,
+                    "uniqueID": 343803,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
