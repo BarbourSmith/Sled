@@ -123,7 +123,8 @@
                             "name": "3D shape 495946",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
