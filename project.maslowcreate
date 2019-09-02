@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 137,
-            "y": 66,
+            "x": 119,
+            "y": 156,
             "uniqueID": 343803,
             "ioValues": [],
             "topLevel": false,
@@ -103,8 +103,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Outline",
-                    "x": 137,
-                    "y": 66,
+                    "x": 119,
+                    "y": 156,
                     "uniqueID": 343803,
                     "ioValues": []
                 },
