@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 119,
-            "y": 156,
+            "x": 113,
+            "y": 73,
             "uniqueID": 343803,
             "ioValues": [],
             "topLevel": false,
@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 114,
-                    "y": 69,
+                    "x": 84,
+                    "y": 44,
                     "uniqueID": 731136,
                     "ioValues": [
                         {
@@ -25,8 +25,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 110,
-                    "y": 187,
+                    "x": 87,
+                    "y": 114,
                     "uniqueID": 992719,
                     "ioValues": [
                         {
@@ -93,6 +93,196 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Electronics",
+            "x": 117,
+            "y": 182,
+            "uniqueID": 656045,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "5 Motor Controller Board",
+                    "x": 99,
+                    "y": 74,
+                    "uniqueID": 318007,
+                    "projectID": "200385438",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "24 Volt 5 Amp Power Supply",
+                    "x": 72,
+                    "y": 243,
+                    "uniqueID": 161331,
+                    "projectID": "208449143",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 330,
+                    "y": 66,
+                    "uniqueID": 490280,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 300,
+                    "y": 220,
+                    "uniqueID": 848473,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 471,
+                    "y": 186,
+                    "uniqueID": 874723,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 527,
+                    "y": 49,
+                    "uniqueID": 974935,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 657,
+                    "y": 126,
+                    "uniqueID": 545126,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 682856",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 541060",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 842050",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 682856",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 318007,
+                    "ap2ID": 490280
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 161331,
+                    "ap2ID": 848473
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 490280,
+                    "ap2ID": 974935
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 848473,
+                    "ap2ID": 874723
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 541060",
+                    "ap1ID": 874723,
+                    "ap2ID": 545126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 842050",
+                    "ap1ID": 974935,
+                    "ap2ID": 545126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 545126
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Sled",
             "x": 0,
             "y": 0,
@@ -103,9 +293,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Outline",
-                    "x": 119,
-                    "y": 156,
+                    "x": 113,
+                    "y": 73,
                     "uniqueID": 343803,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Electronics",
+                    "x": 117,
+                    "y": 182,
+                    "uniqueID": 656045,
                     "ioValues": []
                 },
                 {

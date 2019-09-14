@@ -10,3 +10,123 @@
 ## Outline
 
 
+## Electronics
+
+
+## 5 Motor Controller Board
+
+
+## PCB
+
+
+undefined
+
+
+## PCB
+
+
+undefined
+
+
+## ESP32
+
+
+undefined
+
+
+## ESP32
+
+
+undefined
+
+
+## Chips
+
+
+## Motor Drivers
+
+
+undefined
+
+
+## SPI Motor Controller
+
+
+undefined
+
+
+## Voltage Regulator
+
+
+undefined
+
+
+## Chips
+
+
+## Motor Drivers
+
+
+undefined
+
+
+## SPI Motor Controller
+
+
+undefined
+
+
+## Voltage Regulator
+
+
+undefined
+
+
+## Plugs
+
+
+## Encoder Connectors
+
+
+undefined
+
+
+## Motor Connectors
+
+
+undefined
+
+
+## 24 V Power Plug
+
+
+undefined
+
+
+## Plugs
+
+
+## Encoder Connectors
+
+
+undefined
+
+
+## Motor Connectors
+
+
+undefined
+
+
+## 24 V Power Plug
+
+
+undefined
+
+
+## 24 Volt 5 Amp Power Supply
+
+
+undefined
+
+
