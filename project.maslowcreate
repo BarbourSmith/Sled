@@ -3,17 +3,22 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 113,
+            "x": 204,
             "y": 73,
             "uniqueID": 343803,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Sled Thickness",
+                    "ioValue": 20
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 84,
-                    "y": 44,
+                    "x": 70,
+                    "y": 73,
                     "uniqueID": 731136,
                     "ioValues": [
                         {
@@ -25,8 +30,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 87,
-                    "y": 114,
+                    "x": 74,
+                    "y": 213,
                     "uniqueID": 992719,
                     "ioValues": [
                         {
@@ -38,16 +43,24 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 429,
-                    "y": 101,
+                    "x": 291,
+                    "y": 144,
                     "uniqueID": 534960,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Sled Thickness",
+                    "x": 538,
+                    "y": 41,
+                    "uniqueID": 760764,
                     "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 714,
-                    "y": 89,
+                    "x": 727,
+                    "y": 157,
                     "uniqueID": 940575,
                     "ioValues": [
                         {
@@ -84,6 +97,12 @@
                     "ap2ID": 940575
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 760764,
+                    "ap2ID": 940575
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 940575
@@ -94,35 +113,40 @@
         {
             "atomType": "Molecule",
             "name": "Electronics",
-            "x": 117,
-            "y": 182,
+            "x": 236,
+            "y": 198,
             "uniqueID": 656045,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Sled Thickness",
+                    "ioValue": 20
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "5 Motor Controller Board",
-                    "x": 99,
-                    "y": 74,
-                    "uniqueID": 318007,
-                    "projectID": "200385438",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
                     "name": "24 Volt 5 Amp Power Supply",
-                    "x": 72,
-                    "y": 243,
+                    "x": 85,
+                    "y": 48,
                     "uniqueID": 161331,
                     "projectID": "208449143",
                     "ioValues": []
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "5 Motor Controller Board",
+                    "x": 84,
+                    "y": 208,
+                    "uniqueID": 318007,
+                    "projectID": "200385438",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 300,
-                    "y": 220,
+                    "x": 256,
+                    "y": 48,
                     "uniqueID": 848473,
                     "ioValues": [
                         {
@@ -140,10 +164,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Sled Thickness",
+                    "x": 240,
+                    "y": 129,
+                    "uniqueID": 124089,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 368,
-                    "y": 218,
+                    "x": 284,
+                    "y": 209,
                     "uniqueID": 490280,
                     "ioValues": [
                         {
@@ -163,13 +195,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 471,
-                    "y": 186,
+                    "x": 467,
+                    "y": 67,
                     "uniqueID": 874723,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -120
                         },
                         {
                             "name": "yDist",
@@ -177,15 +209,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 527,
-                    "y": 49,
+                    "x": 481,
+                    "y": 208,
                     "uniqueID": 974935,
                     "ioValues": [
                         {
@@ -194,11 +226,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 120
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -240,20 +272,32 @@
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 318007,
-                    "ap2ID": 490280
+                    "ap1ID": 161331,
+                    "ap2ID": 848473
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 161331,
-                    "ap2ID": 848473
+                    "ap1ID": 318007,
+                    "ap2ID": 490280
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 848473,
                     "ap2ID": 874723
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 124089,
+                    "ap2ID": 874723
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 124089,
+                    "ap2ID": 974935
                 },
                 {
                     "ap1Name": "geometry",
@@ -291,20 +335,69 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Constant",
+                    "name": "Sled Thickness",
+                    "x": 79,
+                    "y": 127,
+                    "uniqueID": 740839,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Outline",
-                    "x": 113,
+                    "x": 204,
                     "y": 73,
                     "uniqueID": 343803,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Sled Thickness",
+                            "ioValue": 20
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Electronics",
-                    "x": 117,
-                    "y": 182,
+                    "x": 236,
+                    "y": 198,
                     "uniqueID": 656045,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Sled Thickness",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 455,
+                    "y": 124,
+                    "uniqueID": 376297,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 197853",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 191725",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 845912",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 197853",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -316,9 +409,33 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "Sled Thickness",
+                    "ap1ID": 740839,
+                    "ap2ID": 343803
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Sled Thickness",
+                    "ap1ID": 740839,
+                    "ap2ID": 656045
+                },
+                {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 191725",
+                    "ap1ID": 343803,
+                    "ap2ID": 376297
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 845912",
+                    "ap1ID": 656045,
+                    "ap2ID": 376297
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 343803
+                    "ap1ID": 376297
                 }
             ],
             "fileTypeVersion": 1

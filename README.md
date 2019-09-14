@@ -13,6 +13,12 @@
 ## Electronics
 
 
+## 24 Volt 5 Amp Power Supply
+
+
+undefined
+
+
 ## 5 Motor Controller Board
 
 
@@ -119,12 +125,6 @@ undefined
 
 
 ## 24 V Power Plug
-
-
-undefined
-
-
-## 24 Volt 5 Amp Power Supply
 
 
 undefined
