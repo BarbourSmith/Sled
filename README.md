@@ -28,18 +28,6 @@ undefined
 undefined
 
 
-## PCB
-
-
-undefined
-
-
-## ESP32
-
-
-undefined
-
-
 ## ESP32
 
 
@@ -47,12 +35,6 @@ undefined
 
 
 ## Chips
-
-
-## Motor Drivers
-
-
-undefined
 
 
 ## SPI Motor Controller
@@ -67,64 +49,73 @@ undefined
 undefined
 
 
-## Chips
-
-
 ## Motor Drivers
 
 
-undefined
+## JST XH 8 Place Right Angle
 
 
-## SPI Motor Controller
+## Body
 
 
-undefined
-
-
-## Voltage Regulator
+## Pins
 
 
 undefined
 
 
-## Plugs
+## DRV8873 H-Bridge
 
 
-## Encoder Connectors
+## Body
 
 
-undefined
-
-
-## Motor Connectors
+## Legs
 
 
 undefined
 
 
-## 24 V Power Plug
+## Motor Driver Sub Assembly
+
+
+## One Motor Driver
+
+
+## DRV8873 H-Bridge
+
+
+## Body
+
+
+## Legs
 
 
 undefined
 
 
-## Plugs
+## JST XH 8 Place Right Angle
 
 
-## Encoder Connectors
+## Body
 
 
-undefined
-
-
-## Motor Connectors
+## Pins
 
 
 undefined
 
 
-## 24 V Power Plug
+## Power Jack
+
+
+## Maslow 4 Power Plug
+
+
+## Body
+
+
+## Legs
 
 
 undefined

@@ -113,8 +113,8 @@
         {
             "atomType": "Molecule",
             "name": "Electronics",
-            "x": 236,
-            "y": 198,
+            "x": 231,
+            "y": 205,
             "uniqueID": 656045,
             "ioValues": [
                 {
@@ -174,7 +174,7 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 284,
+                    "x": 274,
                     "y": 209,
                     "uniqueID": 490280,
                     "ioValues": [
@@ -188,20 +188,20 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 180
+                            "ioValue": -90
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 467,
-                    "y": 67,
+                    "x": 466,
+                    "y": 65,
                     "uniqueID": 874723,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 140
+                            "ioValue": -140
                         },
                         {
                             "name": "yDist",
@@ -217,7 +217,7 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 481,
-                    "y": 208,
+                    "y": 215,
                     "uniqueID": 974935,
                     "ioValues": [
                         {
@@ -226,7 +226,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 150
+                            "ioValue": 170
                         },
                         {
                             "name": "zDist",
@@ -246,15 +246,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 682856",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 541060",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 842050",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 682856",
                             "ioValue": 10
                         }
                     ],
@@ -363,8 +363,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Electronics",
-                    "x": 236,
-                    "y": 198,
+                    "x": 231,
+                    "y": 205,
                     "uniqueID": 656045,
                     "ioValues": [
                         {
@@ -385,15 +385,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 197853",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 191725",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 845912",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 197853",
                             "ioValue": 10
                         }
                     ],
